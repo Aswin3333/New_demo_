@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> BILL SPILTER</title>
+</head>
+<body>
+  <div class="container">
+    <h2> BILL SPLITTER </h2>
+    <div class="left" id="left">
+      <div id="inp1">
+        <label>
+          Bill AMOUNT
+        </label>
+        <input type="number" id="amount" placeholder="enter the amount"/>
+      </div>
+      <div id="inp2">
+        <label>
+          Service
+        </label>
+        <select id="service">
+          <option value="0.2">20%</option >
+          <option value="0.15">15%</option >
+          <option value="0.1">10%</option >
+          <option value="0.05">5%</option >
+        </select>
+      </div>
+      <div id="inp3">
+        <label>
+          Person
+        </label>
+        <input type="number" id="person" placeholder="Number of person?" />
+      </div>
+<!---->
+    </div>
+    <div class="result">
+        <h2>SPLIT </h2>
+          <div class="result-item">
+            <p>Tip Amount</p>
+            <span id="tipAmount">$0.00</span>
+          </div>
+          <div class="result-item">
+            <p>Total Bill</p>
+            <span id="totalAmount">$0.00</span>
+          </div>
+          <div class="result-item">
+            <p>Per Person</p>
+            <span id="perPerson">$0.00</span>
+          </div>
+          <div class="result-item">
+            <p>Tip Per Person</p>
+            <span id="tipPerPerson">$0.00</span>
+          </div>
+     </div>
+     <button id="button">
+        split
+      </button>
+    
+  </div>
+ <script src="script.js"></script>
+</body>
+
+</html>
