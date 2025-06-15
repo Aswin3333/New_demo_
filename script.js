@@ -9,7 +9,7 @@ const amountel = parseFloat(amountle);
 const serviceel = parseFloat(servicele);
 const personel = parseFloat(personle);
 
-//condition 
+//condition for excute the formula 
 
   if ( amountel <= 0 || isNaN(amountel) ){
     alert('Enter Valid Number');
