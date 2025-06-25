@@ -15,7 +15,7 @@ posts.forEach((post)=>{
   
   
 });
-  }catch{
+  }catch(error){
     contain.innerHTML = '<p style="color:red">error</p>'
   
   }
